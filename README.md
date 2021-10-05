@@ -10,7 +10,7 @@ In this project we have developed an efficient and scalable multiagent reinforce
 
 ## Privious Works 
 
-List of publications & preprints using `highway-env` (please open a pull request to add missing entries):
+List of publications our project was based on :
 *   [Approximate Robust Control of Uncertain Dynamical Systems](https://arxiv.org/abs/1903.00220) (Dec 2018)
 *   [Interval Prediction for Continuous-Time Systems with Parametric Uncertainties](https://arxiv.org/abs/1904.04727) (Apr 2019)
 *   [Practical Open-Loop Optimistic Planning](https://arxiv.org/abs/1904.04700) (Apr 2019)
