@@ -1,3 +1,5 @@
+<img src="https://github.com/dusty-nv/jetson-reinforcement/raw/master/docs/images/jetson-reinforcement-header.jpg">
+
 # Autonomous-driving-Jetson
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
@@ -50,3 +52,11 @@ PhD theses
 Master theses
 *   [Multi-Agent Reinforcement Learning with Application on Traffic Flow Control](https://www.diva-portal.org/smash/get/diva2:1573441/FULLTEXT01.pdf) (Jun 2021)
 *   [Deep Reinforcement Learning for Automated Parking](https://repositorio-aberto.up.pt/bitstream/10216/136074/2/494682.pdf) (Aug 2021)
+
+## Deep Reinforcement Learning with Jetson Boards 
+
+In this Project, we'll be creating artificially intelligent agents that learn from interacting with their environment, gathering experience, and a system of rewards with deep reinforcement learning (deep RL).  Using end-to-end neural networks that translate raw pixels into actions, RL-trained agents are capable of exhibiting intuitive behaviors and performing complex tasks.  
+
+Ultimately, our aim will be to train reinforcement learning agents from virtual robotic simulation in 3D and transfer the agent to a real-world robot.  Reinforcement learners choose the best action for the agent to perform based on environmental state (like camera inputs) and rewards that provide feedback to the agent about it's performance.  Reinforcement learning can learn to behave optimally in it's environment given a policy, or task - like obtaining the reward.
+
+<img src="https://github.com/dusty-nv/jetson-reinforcement/raw/master/docs/images/nv_rl_stack_diagram.jpg">
