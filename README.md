@@ -60,3 +60,24 @@ In this Project, we'll be creating artificially intelligent agents that learn fr
 Ultimately, our aim will be to train reinforcement learning agents from virtual robotic simulation in 3D and transfer the agent to a real-world robot.  Reinforcement learners choose the best action for the agent to perform based on environmental state (like camera inputs) and rewards that provide feedback to the agent about it's performance.  Reinforcement learning can learn to behave optimally in it's environment given a policy, or task - like obtaining the reward.
 
 <img src="https://github.com/dusty-nv/jetson-reinforcement/raw/master/docs/images/nv_rl_stack_diagram.jpg">
+
+## Installation
+
+This project requires python3 (>=3.5), The graphics require the installation of [pygame](https://www.pygame.org/news), which itself has dependencies that must be installed  manually. 
+
+```python
+sudo apt-get update -y
+sudo apt-get install -y python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
+    libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev python-numpy subversion libportmidi-dev
+    ffmpeg libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev gcc
+```
+
+## Getting Started on Jupyter lab
+
+Several scripts and notebooks to train driving policies are available. Here are a few of them you can run using Google Colab or a your local jupyter Lab : 
+*   Highway with image observations and a CNN model [ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](scripts)
+*   Trajectory Planning on Highway [ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](scripts)
+*   A Model-based Reinforcement Learning tutorial on Parking [ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](scripts)
+*   Parking with Hindsight Experience Replay [ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](scripts)
+*   Intersection with DQN and social attention [ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](scripts)
+
